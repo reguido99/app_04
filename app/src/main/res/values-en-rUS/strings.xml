@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Repaso004</string>
+    <string name="title">Login to the system</string>
+    <string name="editText_Usuario">User</string>
+    <string name="editText_clave">Password</string>
+    <string name="btn_Enviar">login</string>
+    <string name="user_contend">user login</string>
+    <string name="descriptionClave">key entry </string>
+    <string name="btn_Visualizar">visualize</string>
+    <string name="menu_acercade">About</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@color/purple_700"
+        android:textSize="@dimen/textSize" />
+
+    <EditText
+        android:id="@+id/editTextTextUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:contentDescription="@string/user_contend"
+        android:ems="10"
+        android:hint="@string/editText_Usuario"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTextClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:contentDescription="@string/descriptionClave"
+        android:ems="10"
+        android:hint="@string/editText_clave"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:onClick="OnclickInhresar"
+        android:text="@string/btn_Enviar" />
+</LinearLayout>
